@@ -1,0 +1,645 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bhead {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 50px;
+}
+.bitem {
+  word-spacing: 60px;
+  position: absolute;
+  right: 55px;
+}
+.bitem a {
+  color: white;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-size: 19px;
+}
+.bitem a:hover {
+  color: gray;
+}
+.firstpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstpic {
+}
+.firstpic img {
+  width: 100%;
+  height: 100%;
+}
+.exp {
+  position: absolute;
+  bottom: 175px;
+}
+.exp a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.exp a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tagline {
+  position: absolute;
+  right: 10px;
+  top: 260px;
+}
+.tagline P {
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(212, 211, 211);
+  line-height: 0.1;
+}
+.tagline .p2 {
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: yellow;
+}
+.secondpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 {
+  position: absolute;
+  top: 327px;
+  left: -107px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.s1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 120.5px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.s2 {
+  margin-top: 210px;
+  display: flex;
+  justify-content: center;
+}
+.s2 img {
+  width: 90%;
+  height: 100%;
+}
+.s3 {
+  position: absolute;
+  bottom: 50px;
+}
+.s3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.s3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tag {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.tag a {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 100px;
+  text-decoration: none;
+  z-index: 1;
+}
+.tag a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  width: 0;
+  height: 3px;
+  transform: translateX(0%);
+  background-color: black;
+  transition: width 0.5s ease-in-out;
+}
+.tag a:hover::after {
+  width: 100%;
+}
+.thirdpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t1 {
+  position: absolute;
+  top: 149px;
+  right: -109px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.t1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 112.2px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.t2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.t2 img {
+  width: 90%;
+  height: 100%;
+}
+.t3 {
+  position: absolute;
+  bottom: 50px;
+}
+.t3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.t3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fourthpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f1 {
+  position: absolute;
+  top: 66.5px;
+  left: -84px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.f1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 219px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.f2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.f2 img {
+  width: 90%;
+  height: 100%;
+}
+.f3 {
+  position: absolute;
+  bottom: 50px;
+}
+.f3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.f3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fifthpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fif1 {
+  position: absolute;
+  top: 71px;
+  right: -50px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.fif1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 210px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.fif2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.fif2 img {
+  width: 90%;
+  height: 100%;
+}
+.fif3 {
+  position: absolute;
+  bottom: 50px;
+}
+.fif3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.fif3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sixthpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sx1 {
+  position: absolute;
+  top: 134px;
+  left: -108px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.sx1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 126.5px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.sx2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sx2 img {
+  width: 90%;
+  height: 100%;
+}
+.sx3 {
+  position: absolute;
+  bottom: 50px;
+}
+.sx3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.sx3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.seventhpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sv1 {
+  position: absolute;
+  top: 182px;
+  right: -126px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.sv1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.sv2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sv2 img {
+  width: 90%;
+  height: 100%;
+}
+.sv3 {
+  position: absolute;
+  bottom: 50px;
+}
+.sv3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.sv3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.eighthpage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.egt1 {
+  position: absolute;
+  top: 175px;
+  left: -123.5px;
+  transform: rotate(90deg);
+  mix-blend-mode: overlay;
+}
+.egt1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 73px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: yellow;
+}
+.egt2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.egt2 img {
+  width: 90%;
+  height: 100%;
+}
+.egt3 {
+  position: absolute;
+  bottom: 50px;
+}
+.egt3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+}
+.egt3 a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.secondpage,
+.thirdpage,
+.fourthpage,
+.fifthpage,
+.sixthpage,
+.seventhpage,
+.eighthpage {
+  animation-name: sc;
+  animation-timing-function: linear;
+  animation-timeline: view();
+  animation-range-start: entry;
+  animation-range-end: 500px;
+}
+@keyframes sc {
+  0% {
+    scale: 0.5;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+footer {
+  background-color: #000; /* Black background */
+  padding: 40px 0;
+  color: #fff; /* White text */
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 40%;
+}
+
+.footer-left h4 {
+  margin-top: 0;
+  color: #fff; /* White text */
+}
+
+.footer-left p {
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+.footer-left form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-left input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+.footer-left button {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: #fff; /* White text */
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff; /* White text */
+}
+
+.footer-copyright p {
+  margin-bottom: 10px;
+}
